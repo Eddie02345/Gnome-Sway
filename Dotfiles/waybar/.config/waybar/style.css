@@ -1,8 +1,8 @@
 * {
-    font-family: 'Cantarell', sans-serif, monospace;
+    font-family: 'Cantarell', monospace;
     font-weight: 600; /* 700 is the typical weight for bold */
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 16px;
 }
 
 window#waybar {
@@ -135,6 +135,15 @@ button:hover {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
+#clock {
+    transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+#clock:hover {
+    background-color: rgba(200, 200, 200, 0.2);  /* Semi-transparent white background on hover */
+}
+
 
 #power-profiles-daemon {
     padding-right: 15px;
