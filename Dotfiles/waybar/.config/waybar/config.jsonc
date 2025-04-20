@@ -97,8 +97,7 @@
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "format": "{:%b %d    %H:%M}",
     "format-alt": "{:%b %d    %H:%M}"
-}
-    },
+},
     "cpu": {
         "format": "{usage}% ",
         "tooltip": false
