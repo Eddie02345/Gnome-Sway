@@ -1,20 +1,22 @@
+/* Apply global font settings */
 * {
     font-family: 'Cantarell', monospace;
-    font-weight: 600; /* 700 is the typical weight for bold */
+    font-weight: 600;  /* 700 is the typical weight for bold */
     font-size: 16px;
     border-radius: 16px;
 }
 
-window#waybar {
+/* Style for Waybar window */
+#waybar {
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     transition-property: background-color;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
     border-radius: 0;
-    
 }
 
-window#waybar.hidden {
+/* Adjust opacity for hidden Waybar */
+#waybar.hidden {
     opacity: 0.2;
 }
 
@@ -90,6 +92,7 @@ button:hover {
 #mpd {
     padding: 0.5rem 0.7rem;
     color: #e6e6e6;
+
 }
 
 #window,
@@ -109,13 +112,11 @@ button:hover {
 
 
 #battery {
-    background-color: #ffffff;
     color: #50C878;
 }
 
 #battery.charging, #battery.plugged {
     color: #50C878;
-    background-color: #26A65B;
 }
 
 @keyframes blink {
@@ -127,7 +128,6 @@ button:hover {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
     color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -136,12 +136,17 @@ button:hover {
     animation-direction: alternate;
 }
 
+#battery:hover {
+    background-color: rgba(200, 200, 200, 0.3);  /* Semi-transparent white background on hover */
+}
+
+
 #clock {
     transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
 }
 
 #clock:hover {
-    background-color: rgba(200, 200, 200, 0.2);  /* Semi-transparent white background on hover */
+    background-color: rgba(200, 200, 200, 0.3);  /* Semi-transparent white background on hover */
 }
 
 
@@ -181,8 +186,8 @@ label:focus {
     background-color: #964B00;
 }
 
-#backlight {
-    background-color: #90b1b1;
+#backlight:hover {
+    background-color: rgba(200, 200, 200, 0.3);  /* Semi-transparent white background on hover */
 }
 
 #network {
@@ -194,13 +199,15 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    color: #ffffff;
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
     color: #2a5c45;
+}
+
+#pulseaudio:hover {
+    background-color: rgba(200, 200, 200, 0.3);  /* Semi-transparent white background on hover */
 }
 
 #wireplumber {
@@ -234,17 +241,8 @@ label:focus {
     background-color: #eb4d4b;
 }
 
-#tray {
-    background-color: #2980b9;
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
+#tray:hover {
+    background-color: rgba(200, 200, 200, 0.3);  /* Semi-transparent white background on hover */
 }
 
 #idle_inhibitor {
