@@ -1,9 +1,9 @@
 /* Apply global font settings */
 * {
-    font-family: 'Cantarell', monospace;
+    font-family: 'Cantarell', "JetBrains Mono Nerd Font", monospace;
     font-weight: 600;  /* 700 is the typical weight for bold */
     font-size: 16px;
-    border-radius: 16px;
+    border-radius: 14px;
 }
 
 /* Style for Waybar window */
@@ -44,10 +44,7 @@ button:hover {
     box-shadow: inset 0 -3px #ffffff;
 }
 
-/* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-    background-color: #a37800;
-}
+
 
 #workspaces button {
     padding: 0 5px;
@@ -190,14 +187,9 @@ label:focus {
     background-color: rgba(200, 200, 200, 0.3);  /* Semi-transparent white background on hover */
 }
 
-#network {
-    background-color: #2980b9;
+#network:hover {
+    background-color: rgba(200, 200, 200, 0.3);
 }
-
-#network.disconnected {
-    background-color: #f53c3c;
-}
-
 #pulseaudio {
     color: #ffffff;
 }
