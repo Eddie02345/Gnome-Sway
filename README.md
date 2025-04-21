@@ -1,3 +1,12 @@
-# Sway-Gnome
-Sway config that mimics the looks of gnome.
-Work in progress
+# sway-gnome
+
+A Sway configuration that mimics the looks of GNOME.  
+**Work in progress.**
+
+## Requirements
+
+To install dependencies, run:
+
+```bash
+pip3 install --user autotiling
+
