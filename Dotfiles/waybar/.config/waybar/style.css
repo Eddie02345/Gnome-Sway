@@ -87,7 +87,7 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #mpd {
-    padding: 0.5rem 0.7rem;
+    padding: 0.35rem 0.55rem;
     color: #e6e6e6;
 
 }
@@ -109,11 +109,11 @@ button:hover {
 
 
 #battery {
-    color: #50C878;
+    color: #e6e6e6;
 }
 
 #battery.charging, #battery.plugged {
-    color: #50C878;
+    color: #e6e6e6;
 }
 
 @keyframes blink {
@@ -139,7 +139,8 @@ button:hover {
 
 
 #clock {
-    transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+    transition: background-color 0.3s ease;
+    color: #e6e6e6
 }
 
 #clock:hover {
@@ -195,7 +196,6 @@ label:focus {
 }
 
 #pulseaudio.muted {
-    color: #2a5c45;
 }
 
 #pulseaudio:hover {
