@@ -6,6 +6,8 @@ A Sway configuration that mimics the looks of GNOME.
 ## Requirements
 
 To install dependencies, run:
+
+
 [autotiling](https://github.com/nwg-piotr/autotiling)
 ```bash
 pip3 install --user autotiling
