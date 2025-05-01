@@ -33,10 +33,6 @@ set $filemngr thunar
 #Browser
 set $browser zen-browser
 
-
-##Dbus Session for iwmenu
-exec --no-startup-id dbus-run-session sway
-
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
