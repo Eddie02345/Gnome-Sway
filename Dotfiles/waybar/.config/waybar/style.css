@@ -72,6 +72,7 @@ button:hover {
 
 #clock,
 #battery,
+#custom-bluetooth
 #cpu,
 #memory,
 #disk,
@@ -137,6 +138,19 @@ button:hover {
     background-color: rgba(200, 200, 200, 0.3);  /* Semi-transparent white background on hover */
 }
 
+#custom-bluetooth {
+	 padding: 0.35rem 0.55rem;
+	 color: #e6e6e6;
+}
+
+
+#custom-bluetooth:hover {
+    background-color: rgba(200, 200, 200, 0.3);
+    padding: 0.35rem 0.55rem;
+    color: #e6e6e6;
+
+}
+	
 
 #clock {
     transition: background-color 0.3s ease;

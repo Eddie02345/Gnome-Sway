@@ -19,6 +19,7 @@
         "pulseaudio",
 	"backlight",
 	"network",
+	"custom/bluetooth",
         "battery"
     ],
     // Modules configuration
@@ -148,6 +149,15 @@
         "power-saver": ""
       }
     },
+
+"custom/bluetooth": {
+  "exec": "~/.config/waybar/scripts/bluetooth.sh",
+  "interval": 2,  // You can try 2 seconds or adjust based on your needs
+  "format": "{}",
+  "tooltip": false,
+  "on-click": "bzmenu -l rofi"
+},
+
 "network": {
     "format-wifi": "            ",
     "format-ethernet": "",
