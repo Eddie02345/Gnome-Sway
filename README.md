@@ -27,5 +27,3 @@ git clone https://github.com/e-tho/bzmenu
 cd bzmenu
 cargo build --release
 sudo cp target/release/bzmenu /usr/local/bin/
-
-
