@@ -11,5 +11,5 @@ To install dependencies, run:
 pip3 install --user autotiling
 ```
 
-(bzmenu)[https://github.com/e-tho/bzmenu]
+[bzmenu](https://github.com/e-tho/bzmenu)
 
