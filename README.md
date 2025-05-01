@@ -13,7 +13,7 @@ To install dependencies, run:
 pip3 install --user autotiling
 ```
 
-iwmenu](https://github.com/e-tho/iwmenu)
+[iwmenu](https://github.com/e-tho/iwmenu)
 ```bash
 git clone https://github.com/e-tho/iwmenu
 cd iwmenu
