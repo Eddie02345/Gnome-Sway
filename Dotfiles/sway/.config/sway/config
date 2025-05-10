@@ -29,9 +29,9 @@ set $menu $rofi_cmd -show combi -combi-modes drun#run -modes combi
 
 
 #file manager
-set $filemngr thunar
+set $filemngr nautilus
 #Browser
-set $browser zen-browser
+set $browser flatpak run app.zen_browser.zen
 
 ### Output configuration
 #
